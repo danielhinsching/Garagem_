@@ -13,6 +13,7 @@ from core.views import UserViewSet
 from core.views import UserViewSet
 from core.views import AcessorioViewSet
 from core.views import CategoriaViewSet
+from core.views import CorViewSet
 
 router = DefaultRouter()
 router.register(r"acessorios", AcessorioViewSet)
